@@ -1,0 +1,32 @@
+# Auto detect text files and normalize line endings
+* text=auto
+
+# Unity YAML assets (helpful for merges)
+*.unity text merge=unityyamlmerge eol=lf
+*.prefab text merge=unityyamlmerge eol=lf
+*.asset text merge=unityyamlmerge eol=lf
+*.meta text eol=lf
+*.mat text merge=unityyamlmerge eol=lf
+*.anim text merge=unityyamlmerge eol=lf
+*.controller text merge=unityyamlmerge eol=lf
+
+# Shader and source files
+*.cs text diff=csharp eol=lf
+*.shader text eol=lf
+*.cginc text eol=lf
+*.hlsl text eol=lf
+
+# Common binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tga binary
+*.psd binary
+*.fbx binary
+*.mp3 binary
+*.wav binary
+*.ogg binary
+*.mp4 binary
+*.mov binary
+*.ttf binary
+*.otf binary
